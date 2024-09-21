@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with 7 Text Boxes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .form-container h2 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Submit Your Information</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="textbox1">Text Box 1:</label>
+                <input type="text" id="textbox1" name="textbox1">
+            </div>
+            <div class="form-group">
+                <label for="textbox2">Text Box 2:</label>
+                <input type="text" id="textbox2" name="textbox2">
+            </div>
+            <div class="form-group">
+                <label for="textbox3">Text Box 3:</label>
+                <input type="text" id="textbox3" name="textbox3">
+            </div>
+            <div class="form-group">
+                <label for="textbox4">Text Box 4:</label>
+                <input type="text" id="textbox4" name="textbox4">
+            </div>
+            <div class="form-group">
+                <label for="textbox5">Text Box 5:</label>
+                <input type="text" id="textbox5" name="textbox5">
+            </div>
+            <div class="form-group">
+                <label for="textbox6">Text Box 6:</label>
+                <input type="text" id="textbox6" name="textbox6">
+            </div>
+            <div class="form-group">
+                <label for="textbox7">Text Box 7:</label>
+                <input type="text" id="textbox7" name="textbox7">
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
